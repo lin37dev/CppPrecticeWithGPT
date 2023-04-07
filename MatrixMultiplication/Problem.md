@@ -5,7 +5,7 @@ Possible error situations include:
 - File does not exist or cannot be opened.
 - Data format error in the file, such as incomplete or invalid matrix data.
 - Incompatible dimensions of the two matrices, making multiplication impossible.
-- 
+
 To accomplish this, follow these steps:
 
 - Create a Matrix class, which includes a constructor that reads matrix data from a file. Use try and catch blocks to catch any exceptions that may occur during file operations.
